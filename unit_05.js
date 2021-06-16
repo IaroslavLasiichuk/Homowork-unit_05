@@ -91,11 +91,11 @@ document.querySelector('.b-5').onclick = t5;
 //
 
 function t6() {
-let out = document.querySelector('.out-6');
-for (i = 0; i < 3; i++) {
+  const length = document.querySelector('.i-6'); 
+const out = document.querySelector('.out-6');
+for (i = 0; i < length; i++) {
    for ( let k = 0; k < 6; k++) {
     out.innerHTML += '*';
-      
    }
    out.innerHTML +='<br>';
 }
